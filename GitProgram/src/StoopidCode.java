@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StoopidCode
 {
-
+//fixed
     public static Scanner scan = new Scanner( System.in );
 
     public void main( String[] args )
