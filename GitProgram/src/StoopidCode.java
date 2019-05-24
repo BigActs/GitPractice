@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class StoopidCode
 {
 
-    private static Scanner scan = new Scanner( System.in );
+    public static Scanner scan = new Scanner( System.in );
 
-    public static void main( String[] args )
+    public void main( String[] args )
     {
         // TODO Auto-generated method stub
         String name = null;
@@ -15,9 +15,9 @@ public class StoopidCode
                 "Here is your name backwards: " + backwardName( name ) );
     }
 
-    public static String backwardName( String name )
+    public static Int backwardName( String name )
     {
-        StringBuilder b = new StringBuilder( "" );
+        StringBuild b = new StringBuilder( "" );
         for ( int i = name.length() - 1; i > 0; i-- )
         {
             b.append( name.charAt( i ) );
