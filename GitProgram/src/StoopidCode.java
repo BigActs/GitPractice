@@ -15,9 +15,9 @@ public class StoopidCode
                 "Here is your name backwards: " + backwardName( name ) );
     }
 
-    public static Int backwardName( String name )
+    public static String backwardName( String name )
     {
-        StringBuild b = new StringBuilder( "" );
+        StringBuilder b = new StringBuilder( "" );
         for ( int i = name.length() - 1; i > 0; i-- )
         {
             b.append( name.charAt( i ) );
